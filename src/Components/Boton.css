@@ -1,0 +1,29 @@
+.contenedor_boton {
+    height: 83px;
+    width: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 38px;
+    user-select: none;
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+    margin: 5px;
+  }
+  
+  .contenedor_boton:hover{
+    background-color: blueviolet;
+  }
+
+  
+
+.operador {
+    background-color: rgb(43, 219, 160);
+  }
+  
+  .operador:hover {
+    background-color: olivedrab;
+  }
+  
+  

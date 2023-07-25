@@ -1,0 +1,31 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, rgb(55, 214, 246), green);
+}
+
+#root{
+  height: 100Vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+.grilla_calculadora {
+  padding: 10px;
+  border: whitesmoke solid 2px;
+}
+
+.fila {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
